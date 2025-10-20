@@ -1,0 +1,13 @@
+name: rembg
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy
+  - scipy
+  - pip
+  - pip:
+    - rembg
+    - fastapi
+    - uvicorn
+    - onnxruntime
